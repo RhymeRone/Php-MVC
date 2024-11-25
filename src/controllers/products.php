@@ -9,6 +9,6 @@ class Products
         $model = new Product;
         $products = $model->getData();
 
-        require "view.php";
+        require "views/products_index.php";
     }
 }
